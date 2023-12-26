@@ -52,10 +52,18 @@ rspec_task:
 
   <<: *bundle_cache
 
-  environment:
-    CODECOV_TOKEN: ENCRYPTED[fb8619d670ca47b2f9f0da3096cee1a2fd01df1170dfadf85b6d36292de75de79031d6ef4a70eeca6314e58b4c1a06d9]
-
   test_script: bundle exec rspec
+
+  codecov_uploader_cache:
+    folder: codecov
+    fingerprint_script:
+      - curl --no-progress-meter https://uploader.codecov.io/latest/linux/codecov.SHA256SUM
+    populate_script:
+      - mkdir -p codecov
+      - curl https://uploader.codecov.io/latest/linux/codecov -o codecov/uploader
+      - chmod +x codecov/uploader
+
+  codecov_script: codecov/uploader
 
   only_if: ($CIRRUS_BRANCH == 'main') ||
     changesInclude(

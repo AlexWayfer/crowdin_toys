@@ -14,9 +14,9 @@ group :development, :toys do
 end
 
 group :development, :test do
-	gem 'codecov', '~> 0.2.0'
 	gem 'rspec', '~> 3.9'
 	gem 'simplecov', '~> 0.20.0'
+	gem 'simplecov-cobertura', '~> 2.1'
 end
 
 group :development, :lint do
