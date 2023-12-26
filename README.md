@@ -1,11 +1,11 @@
 # Crowdin Toys
 
 [![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/AlexWayfer/crowdin_toys?style=flat-square)](https://cirrus-ci.com/github/AlexWayfer/crowdin_toys)
-[![Codecov branch](https://img.shields.io/codecov/c/github/AlexWayfer/crowdin_toys/master.svg?style=flat-square)](https://codecov.io/gh/AlexWayfer/crowdin_toys)
+[![Codecov branch](https://img.shields.io/codecov/c/github/AlexWayfer/crowdin_toys/main.svg?style=flat-square)](https://codecov.io/gh/AlexWayfer/crowdin_toys)
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/AlexWayfer/crowdin_toys.svg?style=flat-square)](https://codeclimate.com/github/AlexWayfer/crowdin_toys)
 [![Depfu](https://img.shields.io/depfu/AlexWayfer/benchmark_toys?style=flat-square)](https://depfu.com/repos/github/AlexWayfer/crowdin_toys)
-[![Inline docs](https://inch-ci.org/github/AlexWayfer/crowdin_toys.svg?branch=master)](https://inch-ci.org/github/AlexWayfer/crowdin_toys)
-[![license](https://img.shields.io/github/license/AlexWayfer/crowdin_toys.svg?style=flat-square)](https://github.com/AlexWayfer/crowdin_toys/blob/master/LICENSE.txt)
+[![Inline docs](https://inch-ci.org/github/AlexWayfer/crowdin_toys.svg?branch=main)](https://inch-ci.org/github/AlexWayfer/crowdin_toys)
+[![license](https://img.shields.io/github/license/AlexWayfer/crowdin_toys.svg?style=flat-square)](https://github.com/AlexWayfer/crowdin_toys/blob/main/LICENSE.txt)
 [![Gem](https://img.shields.io/gem/v/crowdin_toys.svg?style=flat-square)](https://rubygems.org/gems/crowdin_toys)
 
 Toys template for actions with [Crowdin](https://crowdin.com/).
