@@ -14,7 +14,7 @@ group :development, :toys do
 end
 
 group :development, :test do
-	gem 'codecov', '~> 0.2.0'
+	gem 'codecov', '~> 0.6.0'
 	gem 'rspec', '~> 3.9'
 	gem 'simplecov', '~> 0.20.0'
 end
