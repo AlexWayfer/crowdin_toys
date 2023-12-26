@@ -32,18 +32,4 @@ Gem::Specification.new do |spec|
 	spec.required_ruby_version = '>= 2.5', '< 4'
 
 	spec.add_runtime_dependency 'toys-core', '~> 0.11.4'
-
-	spec.add_development_dependency 'pry-byebug', '~> 3.9'
-
-	spec.add_development_dependency 'bundler', '~> 2.0'
-	spec.add_development_dependency 'gem_toys', '~> 0.2.0'
-	spec.add_development_dependency 'toys', '~> 0.11.4'
-
-	spec.add_development_dependency 'codecov', '~> 0.2.0'
-	spec.add_development_dependency 'rspec', '~> 3.9'
-	spec.add_development_dependency 'simplecov', '~> 0.20.0'
-
-	spec.add_development_dependency 'rubocop', '~> 1.59.0'
-	spec.add_development_dependency 'rubocop-performance', '~> 1.20.1'
-	spec.add_development_dependency 'rubocop-rspec', '~> 2.25.0'
 end
